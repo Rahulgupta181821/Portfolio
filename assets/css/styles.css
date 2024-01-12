@@ -58,10 +58,6 @@ html {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
   
-  nav h1 {
-    color: var(--primary-color);
-  }
-  
   nav a {
     color: var(--primary-color);
     transition: var(--transition);
@@ -88,6 +84,33 @@ html {
     display: none;
   }
   
+  nav ul li .download-btn{
+    margin: 0;
+  }
+
+
+.log-img{
+  width:8rem;
+  height:auto;
+  margin-left: 4rem;
+  margin-top:-1rem;
+  margin-bottom:-1rem;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+  
+
+
+  .dow-icon{
+  width: 1rem;
+  height: 1rem;
+  padding-top: 3px;
+  padding-left: 2px;
+  }
+
+
+
   .hero {
     display: flex;
     align-items: center;
@@ -155,7 +178,7 @@ html {
   
   .icon {
     width: 11.875rem;
-    height: 11.25rem;
+    height: 9.25rem;
   }
 
   .icon-card {
@@ -335,6 +358,17 @@ html {
       margin: 8px;
     }
 
+    .log-img{
+      /* width:8rem;
+      height:auto; */
+      margin-left: 1rem;
+      margin-top:-1rem;
+      /* margin-bottom:-1rem;
+      border: 2px solid black;
+      border-radius: 50%; */
+    }
+    
+
     .burger-menu {
       display: block;
     }
@@ -395,7 +429,7 @@ html {
     }
      
     .socials {
-      bottom: 70%;
+      bottom: 65%;
     }
   }
   
