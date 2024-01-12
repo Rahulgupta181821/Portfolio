@@ -101,6 +101,7 @@ html {
     height: 37.5rem;
     width: 30.5rem;
     border-radius: 100%;
+    margin-top:1rem;
     box-shadow: 0px 1px 3px 1px var(--primary-shadow);
   
   }
@@ -394,7 +395,7 @@ html {
     }
      
     .socials {
-      bottom: 30%;
+      bottom: 70%;
     }
   }
   
@@ -416,6 +417,9 @@ html {
   
     .contact-form-container {
       max-width: 17.75rem;
+    }
+    .socials {
+      bottom: 70%;
     }
   } 
   
