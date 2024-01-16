@@ -447,8 +447,13 @@ html {
   
     .project-container {
       width: 21.875rem;
+      height: 33rem;
     }
   
+    .project-pic {
+      width: 80%;
+      height: 47%;
+    }
     .contact-form-container {
       max-width: 17.75rem;
     }
