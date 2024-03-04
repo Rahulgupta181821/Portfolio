@@ -32,3 +32,14 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+let heroName= document.querySelector('.hero-name');
+const randomColorGenerator = () => {
+    let r= Math.floor(Math.random()* 255);
+    let g= Math.floor(Math.random()* 255);
+    let b= Math.floor(Math.random()* 255);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+setInterval(function(){
+  heroName.style.color = randomColorGenerator();
+},1000);
